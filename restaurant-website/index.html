@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src * data:; connect-src 'self'; frame-ancestors 'none';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soul Restaurant and Bar | Premium Dining</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+    <!-- PAGE LOADER -->
+    <div class="page-loader">
+        <div class="loader-logo">Soul Restaurant and Bar<span>.</span></div>
+    </div>
+
+    <!-- GLASS NAVBAR -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Soul Restaurant and Bar<span>.</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 1. HERO SECTION -->
+    <header class="hero parallax-hero" id="home" style="background-image: url('assets/images/2025-09-21.jpg');">
+        <div class="hero-overlay animated-gradient"></div>
+        <div class="hero-content">
+            <h1 class="hero-title floating-text">Soul Restaurant and Bar</h1>
+            <p class="hero-subtitle">Experience great food, great vibes, and unforgettable moments</p>
+            <div class="hero-buttons">
+                <a href="menu.html" class="btn btn-primary hover-glow">View Menu</a>
+                <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order" target="_blank" rel="noopener noreferrer" class="btn btn-secondary hover-glow">Order on WhatsApp</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 2. QUICK INTRO SECTION -->
+        <section class="intro section-dark" id="about">
+            <div class="container text-center" data-aos="fade-up">
+                <h2 class="section-title">Welcome to Soul Restaurant and Bar</h2>
+                <p class="section-desc mx-auto">We serve more than just food; we deliver an experience. Embark on a culinary journey where authentic flavors meet an elegant, relaxing ambiance.</p>
+                <a href="about.html" class="btn btn-outline hover-glow">Learn More</a>
+            </div>
+        </section>
+
+        <!-- 3. FEATURE HIGHLIGHTS -->
+        <section class="features section-brown" id="features">
+            <div class="container">
+                <div class="grid-3">
+                    <div class="glass-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon">🍔</div>
+                        <h3>Delicious Meals</h3>
+                        <p>Crafted to perfection using the finest, freshest ingredients.</p>
+                    </div>
+                    <div class="glass-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon">🍸</div>
+                        <h3>Relaxing Atmosphere</h3>
+                        <p>An elegant space thoughtfully designed for comfort and great vibes.</p>
+                    </div>
+                    <div class="glass-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon">⚡</div>
+                        <h3>Fast Service</h3>
+                        <p>Prompt, professional, and friendly service to keep your table happy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. CALL TO ACTION SECTION -->
+        <section class="cta parallax-bg" id="cta" style="background-image: url('assets/images/2025-09-21 (1).jpg');">
+            <div class="cta-overlay"></div>
+            <div class="container text-center z-index-2 relative" data-aos="zoom-in">
+                <h2 class="text-white mb-4">Hungry? Order now and enjoy delicious meals</h2>
+                <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp glowing-bounce">
+                    <span class="wa-icon">💬</span> Order on WhatsApp
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer data-aos="fade-in" data-aos-duration="1200">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3 class="mb-3" style="color:var(--color-gold);">Soul Restaurant and Bar</h3>
+                <p>Taste the perfection in every bite.</p>
+                <div class="social-icons">
+                    <a href="#" target="_blank" rel="noopener noreferrer">Fb</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Ig</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Tw</a>
+                </div>
+            </div>
+            <div class="footer-hours">
+                <h4>Opening Hours</h4>
+                <ul>
+                    <li><strong>Saturday:</strong> 11am – 12am</li>
+                    <li><strong>Sun – Thu:</strong> 11am – 11pm</li>
+                    <li><strong>Friday:</strong> 11am – 12am</li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Details</h4>
+                <p>📞 <a href="tel:0555777025">055 577 7025</a></p>
+                <p>💬 <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Soul Restaurant and Bar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

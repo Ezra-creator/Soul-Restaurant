@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src * data:; connect-src 'self'; frame-ancestors 'none';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Soul Restaurant and Bar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+    <div class="page-loader"><div class="loader-logo">Soul Restaurant and Bar<span>.</span></div></div>
+
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Soul Restaurant and Bar<span>.</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-hero parallax-hero" style="background-image: url('assets/images/unnamed (9).jpg');">
+        <div class="hero-overlay animated-gradient"></div>
+        <div class="page-hero-content">
+            <h1 class="hero-title floating-text">Gallery</h1>
+            <p class="hero-subtitle">A glimpse into the Soul Restaurant and Bar experience</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-dark">
+            <div class="container">
+                <div class="grid-card-layout">
+                    <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                        <img src="assets/images/unnamed (10).jpg" alt="Restaurant Interior" class="gallery-img">
+                    </div>
+                    <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                        <img src="assets/images/unnamed (11).jpg" alt="Signature Dish" class="gallery-img">
+                    </div>
+                    <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                        <img src="assets/images/unnamed (12).jpg" alt="Cocktail Drinks" class="gallery-img">
+                    </div>
+                    <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                        <img src="assets/images/2025-09-21.jpg" alt="Chef Preparing Food" class="gallery-img">
+                    </div>
+                    <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                        <img src="assets/images/2025-09-21 (1).jpg" alt="Bar Area" class="gallery-img">
+                    </div>
+                    <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                        <img src="assets/images/unnamed (1).jpg" alt="Dessert Plate" class="gallery-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="parallax-bg" style="background-image: url('assets/images/unnamed (2).jpg'); padding: 100px 0;">
+            <div class="cta-overlay opacity-80"></div>
+            <div class="container z-index-2 relative">
+                <h2 class="section-title text-center text-gold hero-title mb-5" data-aos="fade-right">The Ambience</h2>
+                
+                <div class="ambience-slider" data-aos="fade-up">
+                    <img src="assets/images/unnamed (3).jpg" alt="Cozy Seating">
+                    <img src="assets/images/unnamed (4).jpg" alt="Dining Tables">
+                    <img src="assets/images/unnamed (5).jpg" alt="Outdoor View">
+                    <img src="assets/images/unnamed (6).jpg" alt="Wine Details">
+                </div>
+            </div>
+        </section>
+
+        <section class="cta section-brown text-center" id="cta">
+            <div class="container" data-aos="zoom-in">
+                <h2 class="mb-4">Love what you see? Order now and enjoy!</h2>
+                <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp glowing-bounce">
+                    <span class="wa-icon">💬</span> Order on WhatsApp
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- LIGHTBOX -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- FOOTER -->
+    <footer data-aos="fade-in">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3 class="mb-3" style="color:var(--color-gold);">Soul Restaurant and Bar</h3>
+            </div>
+            <div class="footer-hours">
+                <h4>Opening Hours</h4>
+                <ul><li><strong>Sat:</strong> 11am–12am</li><li><strong>Sun–Thu:</strong> 11am–11pm</li><li><strong>Fri:</strong> 11am–12am</li></ul>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2026 Soul Restaurant and Bar.</p></div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

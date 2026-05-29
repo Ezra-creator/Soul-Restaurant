@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src * data:; connect-src 'self'; frame-ancestors 'none';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Soul Restaurant and Bar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+    <div class="page-loader"><div class="loader-logo">Soul Restaurant and Bar<span>.</span></div></div>
+
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Soul Restaurant and Bar<span>.</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-hero parallax-hero" style="background-image: url('assets/images/unnamed (7).jpg');">
+        <div class="hero-overlay animated-gradient"></div>
+        <div class="page-hero-content">
+            <h1 class="hero-title floating-text">Contact Us</h1>
+            <p class="hero-subtitle">We’re here to serve you</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-dark contact-area">
+            <div class="container grid-2">
+                
+                <div class="glass-card-solid p-5" data-aos="fade-right">
+                    <h2 class="section-title text-gold mb-4">Get in Touch</h2>
+                    <p class="mb-5 text-muted">Reach out to us for reservations, special orders, or any inquiries you might have. We'd love to hear from you!</p>
+                    
+                    <div class="flex-icon-list mb-4">
+                        <span class="icon text-gold">📞</span>
+                        <div><h4>Phone</h4><p><a href="tel:0555777025">055 577 7025</a></p></div>
+                    </div>
+                    
+                    <div class="flex-icon-list mb-4">
+                        <span class="icon text-gold">💬</span>
+                        <div><h4>WhatsApp</h4><p><a href="https://wa.me/233555777025" target="_blank">055 577 7025</a></p></div>
+                    </div>
+
+                    <div class="flex-icon-list mb-4">
+                        <span class="icon text-gold">📍</span>
+                        <div>
+                            <h4>Location</h4>
+                            <p><a href="https://maps.app.goo.gl/Ycw6Un8PTznPQv148" target="_blank" rel="noopener noreferrer">Soul Restaurant and Bar<br>Accra, Ghana</a></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-icon-list">
+                        <span class="icon text-gold">🕒</span>
+                        <div>
+                            <h4>Opening Hours</h4>
+                            <ul class="text-muted" style="list-style:none;">
+                                <li><strong class="text-light">Sat:</strong> 11am – 12am</li>
+                                <li><strong class="text-light">Sun – Thu:</strong> 11am – 11pm</li>
+                                <li><strong class="text-light">Fri:</strong> 11am – 12am</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card-solid p-5" data-aos="fade-left" data-aos-delay="200">
+                    <h2 class="section-title text-gold mb-4">Send a Message</h2>
+                    <form id="contactForm" class="custom-form">
+                        <div class="form-group mb-4">
+                            <label>Name</label>
+                            <input type="text" id="name" required class="form-input">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label>Phone / Email</label>
+                            <input type="text" id="contact" required class="form-input">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label>Message</label>
+                            <textarea id="message" rows="5" required class="form-input"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 hover-glow">Chat with us on WhatsApp</button>
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="cta section-brown text-center" id="cta">
+            <div class="container" data-aos="zoom-in">
+                <h2 class="mb-4">Want to order now? Chat with us on WhatsApp!</h2>
+                <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp glowing-bounce">
+                    <span class="wa-icon">💬</span> Order on WhatsApp
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer data-aos="fade-in">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3 class="mb-3" style="color:var(--color-gold);">Soul Restaurant and Bar</h3>
+            </div>
+            <div class="footer-hours">
+                <h4>Opening Hours</h4>
+                <ul><li><strong>Sat:</strong> 11am–12am</li><li><strong>Sun–Thu:</strong> 11am–11pm</li><li><strong>Fri:</strong> 11am–12am</li></ul>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2026 Soul Restaurant and Bar.</p></div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

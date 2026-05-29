@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src * data:; connect-src 'self'; frame-ancestors 'none';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Soul Restaurant and Bar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+    <div class="page-loader"><div class="loader-logo">Soul Restaurant and Bar<span>.</span></div></div>
+
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Soul Restaurant and Bar<span>.</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-hero parallax-hero" style="background-image: url('assets/images/unnamed (3).jpg');">
+        <div class="hero-overlay animated-gradient"></div>
+        <div class="page-hero-content">
+            <h1 class="hero-title floating-text">Our Menu</h1>
+            <p class="hero-subtitle">Delicious meals prepared with love</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-dark">
+            <div class="container">
+                <div class="menu-filters" data-aos="fade-up">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="main">Main Meals</button>
+                    <button class="filter-btn" data-filter="drinks">Drinks</button>
+                    <button class="filter-btn" data-filter="desserts">Desserts</button>
+                </div>
+                
+                <div class="grid-card-layout">
+                    
+                    <div class="menu-card glass-card-solid mix main" data-aos="fade-up" data-aos-delay="100">
+                        <div class="img-wrapper menu-img"><img src="assets/images/unnamed (4).jpg" alt="Grilled Salmon"></div>
+                        <div class="card-content">
+                            <h3>Grilled Salmon</h3>
+                            <p class="desc">Fresh salmon grilled with garlic butter and herbs.</p>
+                            <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order%20Grilled%20Salmon" target="_blank" class="btn btn-outline btn-sm w-100 hover-glow">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card glass-card-solid mix main" data-aos="fade-up" data-aos-delay="200">
+                        <div class="img-wrapper menu-img"><img src="assets/images/unnamed (5).jpg" alt="Pizza"></div>
+                        <div class="card-content">
+                            <h3>Supreme Chicken Pizza</h3>
+                            <p class="desc">Hand-tossed crust packed with mozzarella and chicken.</p>
+                            <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order%20Supreme%20Chicken%20Pizza" target="_blank" class="btn btn-outline btn-sm w-100 hover-glow">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card glass-card-solid mix main" data-aos="fade-up" data-aos-delay="300">
+                        <div class="img-wrapper menu-img"><img src="assets/images/unnamed (6).jpg" alt="Steak"></div>
+                        <div class="card-content">
+                            <h3>Premium Beef Steak</h3>
+                            <p class="desc">Tender pan-seared steak coated in a peppercorn sauce.</p>
+                            <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order%20Premium%20Beef%20Steak" target="_blank" class="btn btn-outline btn-sm w-100 hover-glow">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card glass-card-solid mix drinks" data-aos="fade-up" data-aos-delay="100">
+                        <div class="img-wrapper menu-img"><img src="assets/images/unnamed (7).jpg" alt="Cocktail"></div>
+                        <div class="card-content">
+                            <h3>Tropical Cocktail</h3>
+                            <p class="desc">A refreshing blend of mango, pineapple, and premium spirits.</p>
+                            <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order%20Tropical%20Cocktail" target="_blank" class="btn btn-outline btn-sm w-100 hover-glow">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card glass-card-solid mix desserts" data-aos="fade-up" data-aos-delay="200">
+                        <div class="img-wrapper menu-img"><img src="assets/images/unnamed (8).jpg" alt="Cake"></div>
+                        <div class="card-content">
+                            <h3>Chocolate Lava Cake</h3>
+                            <p class="desc">A warm rich chocolate cake served with vanilla ice cream.</p>
+                            <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order%20Chocolate%20Lava%20Cake" target="_blank" class="btn btn-outline btn-sm w-100 hover-glow">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="cta section-brown text-center" id="cta">
+            <div class="container" data-aos="zoom-in">
+                <h2 class="mb-4">Ready to enjoy your meal?</h2>
+                <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp glowing-bounce">
+                    <span class="wa-icon">💬</span> Order on WhatsApp
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer data-aos="fade-in">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3 class="mb-3" style="color:var(--color-gold);">Soul Restaurant and Bar</h3>
+            </div>
+            <div class="footer-hours">
+                <h4>Opening Hours</h4>
+                <ul><li><strong>Sat:</strong> 11am–12am</li><li><strong>Sun–Thu:</strong> 11am–11pm</li><li><strong>Fri:</strong> 11am–12am</li></ul>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2026 Soul Restaurant and Bar.</p></div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
