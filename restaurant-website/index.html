@@ -5,7 +5,13 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src * data:; connect-src 'self'; frame-ancestors 'none';">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta name="referrer" content="strict-origin-when-cross-origin">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Soul Restaurant and Bar offers a premium dining experience with delicious meals, great vibes, and exceptional service in Accra, Ghana.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍽️</text></svg>">
+        <meta property="og:title" content="Soul Restaurant and Bar | Premium Dining">
+    <meta property="og:description" content="Experience great food, great vibes, and unforgettable moments at Soul Restaurant and Bar in Accra, Ghana.">
+    <meta property="og:image" content="assets/images/hero-bg.jpg">
+    <meta property="og:url" content="https://soulrestaurant.example.com">
     <title>Soul Restaurant and Bar | Premium Dining</title>
     
     <!-- Fonts -->
@@ -31,7 +37,7 @@
     <nav class="glass-nav">
         <div class="nav-container">
             <a href="index.html" class="logo">Soul Restaurant and Bar<span>.</span></a>
-            <div class="menu-toggle" id="mobile-menu">
+            <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation" role="button" tabindex="0">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -47,7 +53,7 @@
     </nav>
 
     <!-- 1. HERO SECTION -->
-    <header class="hero parallax-hero" id="home" style="background-image: url('assets/images/2025-09-21.jpg');">
+    <header class="hero parallax-hero" id="home" style="background-image: url('assets/images/hero-bg.jpg');">
         <div class="hero-overlay animated-gradient"></div>
         <div class="hero-content">
             <h1 class="hero-title floating-text">Soul Restaurant and Bar</h1>
@@ -93,7 +99,7 @@
         </section>
 
         <!-- 4. CALL TO ACTION SECTION -->
-        <section class="cta parallax-bg" id="cta" style="background-image: url('assets/images/2025-09-21 (1).jpg');">
+        <section class="cta parallax-bg" id="cta" style="background-image: url('assets/images/cta-bg.jpg');">
             <div class="cta-overlay"></div>
             <div class="container text-center z-index-2 relative" data-aos="zoom-in">
                 <h2 class="text-white mb-4">Hungry? Order now and enjoy delicious meals</h2>
@@ -105,15 +111,16 @@
     </main>
 
     <!-- FOOTER -->
+        <!-- FOOTER -->
     <footer data-aos="fade-in" data-aos-duration="1200">
         <div class="footer-container">
             <div class="footer-brand">
                 <h3 class="mb-3" style="color:var(--color-gold);">Soul Restaurant and Bar</h3>
                 <p>Taste the perfection in every bite.</p>
                 <div class="social-icons">
-                    <a href="#" target="_blank" rel="noopener noreferrer">Fb</a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">Ig</a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">Tw</a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Fb</a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Ig</a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">Tw</a>
                 </div>
             </div>
             <div class="footer-hours">
@@ -126,7 +133,7 @@
             </div>
             <div class="footer-contact">
                 <h4>Contact Details</h4>
-                <p>📞 <a href="tel:0555777025">055 577 7025</a></p>
+                <p>📞 <a href="tel:+233555777025">055 577 7025</a></p>
                 <p>💬 <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></p>
             </div>
         </div>

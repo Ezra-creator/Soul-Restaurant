@@ -31,14 +31,3 @@ restaurant-website/
 1. **Separation of Concerns**: By keeping structural HTML (`index.html`), presentation (`css/`), static assets (`assets/`), and logic (`js/`) isolated, the codebase remains clean.
 2. **Scalability**: As the website grows from a landing page into a multi-page routing project or transitions to a framework (like React or Vue), having `assets`, `components` (sections in this case), and core `styles`/`scripts` separated accurately mirrors modern workflows.
 3. **Modularity**: Specialized files (e.g., `animations.css` and `animations.js`) avoid monolithic, messy code files.
-
-## How to use relative paths?
-- **From HTML (`index.html`)**: Simply use `css/style.css` or `assets/images/logo.png`.
-- **From CSS (`css/style.css`)**: If you need to access an image, traverse one directory up using `../`: e.g., `background-image: url('../assets/images/bg.jpg');`.
-- **From JS (`js/main.js`)**: Similar logic, URLs point relative to where the JS is executing on `index.html`. 
-
-## Deployment Setup
-
-This project is entirely static (HTML, CSS, JS). No build step required! It is ready for easy out-of-the box deployment:
-1. Make sure all local references inside `index.html` (e.g., `<img src="...">` and `<link href="...">`) are properly matched.
-2. Host it effortlessly by uploading the root `restaurant-website` folder to a service like **Netlify (drag and drop)**, **GitHub Pages**, or **Vercel**.

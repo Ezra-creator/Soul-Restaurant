@@ -131,13 +131,14 @@ document.addEventListener('DOMContentLoaded', () => {
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
             const name = document.getElementById('name').value;
+            const contactField = document.getElementById('contact').value;
             const contactMsg = document.getElementById('message').value;
             
             const waNumber = '233555777025';
-            const textContent = encodeURIComponent(`Hello, my name is ${name}.\n\n${contactMsg}`);
+            const textContent = encodeURIComponent(`Hello, my name is ${name}.\nMy contact info: ${contactField}\n\n${contactMsg}`);
             const waURL = `https://wa.me/${waNumber}?text=${textContent}`;
             
-            window.open(waURL, '_blank');
+            window.open(waURL, '_blank', 'noopener,noreferrer');
         });
     }
 });
