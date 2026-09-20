@@ -2,17 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src * data:; connect-src 'self'; frame-ancestors 'none';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src * data:; connect-src 'self'; frame-ancestors 'none';">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta name="referrer" content="strict-origin-when-cross-origin">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Soul Restaurant and Bar offers a premium dining experience with delicious meals, great vibes, and exceptional service in Accra, Ghana.">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍽️</text></svg>">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23d4af37'><path d='M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z'/></svg>">
     <title>Contact Us | Soul Restaurant and Bar</title>
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animations.css">
 </head>
@@ -55,17 +64,17 @@
                     <p class="mb-5 text-muted">Reach out to us for reservations, special orders, or any inquiries you might have. We'd love to hear from you!</p>
                     
                     <div class="flex-icon-list mb-4">
-                        <span class="icon text-gold">📞</span>
+                        <span class="icon text-gold"><i class="fa-solid fa-phone"></i></span>
                         <div><h4>Phone</h4><p><a href="tel:+233555777025">055 577 7025</a></p></div>
                     </div>
                     
                     <div class="flex-icon-list mb-4">
-                        <span class="icon text-gold">💬</span>
+                        <span class="icon text-gold"><i class="fa-brands fa-whatsapp"></i></span>
                         <div><h4>WhatsApp</h4><p><a href="https://wa.me/233555777025" target="_blank" rel="noopener noreferrer">055 577 7025</a></p></div>
                     </div>
 
                     <div class="flex-icon-list mb-4">
-                        <span class="icon text-gold">📍</span>
+                        <span class="icon text-gold"><i class="fa-solid fa-location-dot"></i></span>
                         <div>
                             <h4>Location</h4>
                             <p><a href="https://maps.app.goo.gl/Ycw6Un8PTznPQv148" target="_blank" rel="noopener noreferrer">Soul Restaurant and Bar<br>Accra, Ghana</a></p>
@@ -73,7 +82,7 @@
                     </div>
 
                     <div class="flex-icon-list">
-                        <span class="icon text-gold">🕒</span>
+                        <span class="icon text-gold"><i class="fa-solid fa-clock"></i></span>
                         <div>
                             <h4>Opening Hours</h4>
                             <ul class="text-muted" style="list-style:none;">
@@ -100,7 +109,7 @@
                             <label for="message">Message</label>
                             <textarea id="message" rows="5" required class="form-input"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary w-100 hover-glow">Chat with us on WhatsApp</button>
+                        <button type="submit" class="btn btn-primary w-100 hover-glow"><i class="fa-brands fa-whatsapp" style="margin-right: 8px;"></i> Chat with us on WhatsApp</button>
                     </form>
                 </div>
                 
@@ -111,22 +120,22 @@
             <div class="container" data-aos="zoom-in">
                 <h2 class="mb-4">Want to order now? Chat with us on WhatsApp!</h2>
                 <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp glowing-bounce">
-                    <span class="wa-icon">💬</span> Order on WhatsApp
+                    <span class="wa-icon"><i class="fa-brands fa-whatsapp"></i></span> Order on WhatsApp
                 </a>
             </div>
         </section>
     </main>
 
-        <!-- FOOTER -->
+    <!-- FOOTER -->
     <footer data-aos="fade-in" data-aos-duration="1200">
         <div class="footer-container">
             <div class="footer-brand">
                 <h3 class="mb-3" style="color:var(--color-gold);">Soul Restaurant and Bar</h3>
                 <p>Taste the perfection in every bite.</p>
                 <div class="social-icons">
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Fb</a>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Ig</a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">Tw</a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
                 </div>
             </div>
             <div class="footer-hours">
@@ -139,8 +148,8 @@
             </div>
             <div class="footer-contact">
                 <h4>Contact Details</h4>
-                <p>📞 <a href="tel:+233555777025">055 577 7025</a></p>
-                <p>💬 <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></p>
+                <p><i class="fa-solid fa-phone footer-icon"></i> <a href="tel:+233555777025">055 577 7025</a></p>
+                <p><i class="fa-brands fa-whatsapp footer-icon"></i> <a href="https://wa.me/233555777025?text=Hello%20I%20want%20to%20order" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></p>
             </div>
         </div>
         <div class="footer-bottom">
